@@ -21,4 +21,4 @@ const DevSchema = new Schema({
         timestamps: true,
     });
 
-module.exports = ('dev', DevSchema);
+module.exports = model('dev', DevSchema);
